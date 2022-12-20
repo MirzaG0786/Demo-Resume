@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    position: relative;
+    width: 90%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 10px;
+    background-color: #afafaf;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1); 
+}
+
+.left-section{
+    position: relative;
+    background-color: darkblue;
+    padding: 40px;
+}
+
+.left-section .left-content{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.left-content .profile-image{
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 30%;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.left-content .profile-image img
+{
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+    object-fit: cover;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.left-content .name{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+
+
+.left-content .designation{
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+hr{
+    width: 250px;
+    margin-top: 10px;
+    border: 1px solid white;
+    position: relative;
+    margin-bottom: 10px;
+}
+.description{
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-item{
+    position: relative;
+}
+
+.contact-item .social-media ul{
+    position: relative;
+    list-style-type: none;
+}
+
+.contact-item .social-media ul li{
+    display: inline-block;
+    padding: 13px;
+}
+
+.contact-item .social-media ul li .icon a{
+    position: relative;
+    color: aqua;
+    font-size: 20px;
+}
+
+.personal-detail{
+    padding: 5px;
+}
+
+.personal-detail ul li{
+    position: relative;
+    list-style-type: none;
+    padding: 2px;
+    color: #fff;
+    margin: 5px;
+}
+
+.personal-detail ul li .icon{
+    color: aqua;
+}
+
+.personal-detail ul li .text{
+    font-size: 15px;
+}
+
+.contact-item-skills{
+    position: relative;
+    color: #fff;
+}
+
+.contact-item-skills .skills{
+    margin-top: 20px;
+    font-size: 0.75 rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+.contact-item-skills .skill-name{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 0.65 rem;
+    font-weight: 0.65 rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    margin-top: 10px;
+}
+
+.contact-item-skills .progress-bar{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 4px;
+    border: 1px white solid;
+}
+
+.contact-item-skills .progress-bar div{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #fff;
+}
+
+.right-section{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.right-section .right-main-content{
+    position: relative;
+    padding: 2rem 3rem;
+}
+
+.right-main-content .about-section{
+    position: relative;
+}
+
+.right-main-content .right-title{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.right-main-content .about-section p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.right-main-content .education-section .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;    
+}
+
+.right-main-content .education-section .box .text h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.right-main-content .education-section .box .text p{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.right-main-content .education-section .box .year-of-edu{
+    min-width: 105px;
+    margin-left: 20px;
+}
+
+.right-main-content .experience-section .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;    
+}
+
+.right-main-content .experience-section .box .text h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.right-main-content .experience-section .box .text p{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.right-main-content .experience-section .box .year-of-edu{
+    min-width: 105px;
+    margin-left: 20px;
+}
+
+.right-main-content .project-section .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;    
+}
+
+.right-main-content .project-section .box .text h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.right-main-content .project-section .box .text p{
+    text-align: justify;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.right-main-content .project-section .box .year-of-edu{
+    min-width: 105px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .about-section {
+      /* grid-template-columns: repeat(1,1fr); */
+      color: blue !important;
+    }
+  }
