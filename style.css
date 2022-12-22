@@ -4,14 +4,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body{
     background: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .main-content{
     position: relative;
     width: 90%;
@@ -23,13 +21,11 @@ body{
     grid-template-columns: 300px 700px;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1); 
 }
-
 .left-section{
     position: relative;
     background-color: darkblue;
     padding: 40px;
 }
-
 .left-section .left-content{
     position: relative;
     align-items: center;
@@ -37,7 +33,6 @@ body{
     flex-direction: column;
     padding: 1rem;
 }
-
 .left-content .profile-image{
     display: block;
     margin: auto;
@@ -48,7 +43,6 @@ body{
     overflow: hidden;
     padding: 1rem;
 }
-
 .left-content .profile-image img
 {
     width: 100%;
@@ -59,7 +53,6 @@ body{
     left: 0px;
     top: 0px;
 }
-
 .left-content .name{
     color: #fff;
     text-transform: uppercase;
@@ -69,8 +62,6 @@ body{
     letter-spacing: 0.02px;
     padding: 0.8rem;
 }
-
-
 .left-content .designation{
     color: #fff;
     margin-top: 10px;
@@ -94,31 +85,25 @@ hr{
     text-align: center;
     padding: 1rem;
 }
-
 .contact-item{
     position: relative;
 }
-
 .contact-item .social-media ul{
     position: relative;
     list-style-type: none;
 }
-
 .contact-item .social-media ul li{
     display: inline-block;
     padding: 13px;
 }
-
 .contact-item .social-media ul li .icon a{
     position: relative;
     color: aqua;
     font-size: 20px;
 }
-
 .personal-detail{
     padding: 5px;
 }
-
 .personal-detail ul li{
     position: relative;
     list-style-type: none;
@@ -126,20 +111,16 @@ hr{
     color: #fff;
     margin: 5px;
 }
-
 .personal-detail ul li .icon{
     color: aqua;
 }
-
 .personal-detail ul li .text{
     font-size: 15px;
 }
-
 .contact-item-skills{
     position: relative;
     color: #fff;
 }
-
 .contact-item-skills .skills{
     margin-top: 20px;
     font-size: 0.75 rem;
@@ -147,7 +128,6 @@ hr{
     text-transform: uppercase;
     padding: 1rem 0.5rem;
 }
-
 .contact-item-skills .skill-name{
     position: relative;
     text-transform: uppercase;
@@ -157,7 +137,6 @@ hr{
     padding-bottom: 0.5rem;
     margin-top: 10px;
 }
-
 .contact-item-skills .progress-bar{
     position: relative;
     margin-top: 10px;
@@ -165,7 +144,6 @@ hr{
     height: 4px;
     border: 1px white solid;
 }
-
 .contact-item-skills .progress-bar div{
     position: relative;
     left: 0;
@@ -173,22 +151,18 @@ hr{
     height: 100%;
     background: #fff;
 }
-
 .right-section{
     position: relative;
     background-color: #fff;
     padding: 40px;
 }
-
 .right-section .right-main-content{
     position: relative;
     padding: 2rem 3rem;
 }
-
 .right-main-content .about-section{
     position: relative;
 }
-
 .right-main-content .right-title{
     margin-top: 15px;
     text-transform: uppercase;
@@ -197,18 +171,15 @@ hr{
     padding: 0.5rem;
     letter-spacing: 1px;
 }
-
 .right-main-content .about-section p{
     text-align: justify;
     margin-top: 10px;
 }
-
 .right-main-content .education-section .box{
     display: flex;
     flex-direction: row;
     margin: 20px 0;    
 }
-
 .right-main-content .education-section .box .text h4{
     text-transform: uppercase;
     font-size: 15px;
