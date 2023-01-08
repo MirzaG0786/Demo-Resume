@@ -246,9 +246,8 @@ hr{
     margin-left: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    .about-section {
-      /* grid-template-columns: repeat(1,1fr); */
-      color: blue !important;
+@media screen and (max-width: 674px) {
+    .main-content {
+        grid-template-columns: repeat(1,1fr);
     }
   }
